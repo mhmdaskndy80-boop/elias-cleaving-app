@@ -1,0 +1,50 @@
+{
+  "id": "/",
+  "name": "Elias Cleaving",
+  "short_name": "EliasCleaving",
+  "description": "Elias Cleaving - نظام حساب الكميات وإدارة المشاريع الإنشائية والهيكل الخرساني وجدول أوزان الحديد (أوفلاين 100%)",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "window-controls-overlay", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#0F172A",
+  "theme_color": "#0F172A",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["engineering", "productivity", "utilities", "business"],
+  "icons": [
+    {
+      "src": "./icon.jpg",
+      "sizes": "192x192 512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "جدول تفريد الحديد BBS",
+      "short_name": "BBS",
+      "description": "حساب أوزان وتفريد حديد التسليح والكانات",
+      "url": "./index.html#bbs"
+    },
+    {
+      "name": "الأعمال الترابية والردم",
+      "short_name": "حفر وردم",
+      "description": "حساب حجوم الحفر والانتفاش وردود الشاحنات",
+      "url": "./index.html#earthworks"
+    },
+    {
+      "name": "الأساسات والقواعد",
+      "short_name": "أساسات",
+      "description": "حصر خرسانة القواعد والأسمنت والرمل والحصى",
+      "url": "./index.html#foundations"
+    },
+    {
+      "name": "جدول الكميات والتكلفة BOQ",
+      "short_name": "BOQ",
+      "description": "جدول الكميات والتكلفة الإجمالية للمشروع",
+      "url": "./index.html#boq"
+    }
+  ]
+}
